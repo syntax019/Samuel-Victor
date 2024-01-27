@@ -20,7 +20,7 @@ export default function Project() {
           <img src={shortly} alt="" />
           <h3>
             <a
-              href="https://tip-calculator-o6gz.vercel.app"
+              href="https://github.com/syntax019/Shortly.git"
               className="projectTitle"
             >
               Shortly- Link Shortener
@@ -37,7 +37,7 @@ export default function Project() {
           <h3>
             <a href="https://opay-jade.vercel.app/" className="projectTitle">
               Opay(CLONED)- Banking app
-            </a>{" "}
+            </a>
           </h3>
           <div className="projectDescription">
             A Simple landing page for the web app showing a cloned features that
