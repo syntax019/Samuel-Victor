@@ -35,10 +35,7 @@ export default function Project() {
         <div className="projectDone project2">
           <img src={opay} alt="" />
           <h3>
-            <a
-              href="https://tip-calculator-o6gz.vercel.app"
-              className="projectTitle"
-            >
+            <a href="https://opay-jade.vercel.app/" className="projectTitle">
               Opay(CLONED)- Banking app
             </a>{" "}
           </h3>
