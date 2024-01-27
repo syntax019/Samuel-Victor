@@ -4,6 +4,7 @@ import FacebookIcon from "../../assets/facebook-icon.png";
 import TwitterIcon from "../../assets/twitter.png";
 import Linkedin from "../../assets/linkedin.png";
 import InstagramIcon from "../../assets/instagram.png";
+import gitHub from "../../assets/github.png";
 import emailjs from "@emailjs/browser";
 
 export default function Contact() {
@@ -17,7 +18,7 @@ export default function Contact() {
         "syntax001",
         "template_vjn9zfg",
         form.current,
-        "f-KLS9y6BV4sJQttgCj2j"
+        "pzcMVZrDU1HVRs1TQ"
       )
       .then(
         (result) => {
@@ -39,13 +40,13 @@ export default function Contact() {
           type="text"
           className="name"
           placeholder="Your Name"
-          name="your_name"
+          name="from_name"
         />
         <input
           type="email"
           className="email"
           placeholder="Your Email"
-          name="your_email"
+          name="from_email"
         />
         <textarea
           name="message"
@@ -59,17 +60,20 @@ export default function Contact() {
           Send
         </button>
         <div className="links">
+          <a href="https://www.linkedin.com/in/samuel-edubio-b6a11a2a2/">
+            <img src={Linkedin} alt="" className="link" />
+          </a>
           <a href="https://web.facebook.com/Sammie2591/">
             <img src={FacebookIcon} alt="" className="link" />
           </a>
           <a href="https://twitter.com/_syntax19">
             <img src={TwitterIcon} alt="" className="link" />
           </a>
-          <a href="https://www.linkedin.com/in/samuel-edubio-b6a11a2a2/">
-            <img src={Linkedin} alt="" className="link" />
-          </a>
           <a href="https://www.facebook.com">
             <img src={InstagramIcon} alt="" className="link" />
+          </a>
+          <a href="https://github.com/syntax019">
+            <img src={gitHub} alt="" className="link" />
           </a>
         </div>
       </form>

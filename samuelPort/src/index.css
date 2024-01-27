@@ -16,7 +16,7 @@
   box-sizing: border-box;
   text-decoration: none;
   background-position: center;
-  font-family: myFont;
+  font-family: myFont, sans-serif;
 }
 body {
   background: var(--color-bg);

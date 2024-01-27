@@ -116,6 +116,19 @@ export default function Navbar() {
         >
           Contact
         </Link>
+        <a
+          activeClass="active"
+          to="https://github.com/syntax019"
+          href="https://github.com/syntax019"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="listItem"
+          onClick={() => setShowMenu(false)}
+        >
+          My GitHub
+        </a>
       </div>
     </nav>
   );

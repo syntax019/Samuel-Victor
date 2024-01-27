@@ -19,10 +19,7 @@ export default function Project() {
         <div className="projectDone project1">
           <img src={shortly} alt="" />
           <h3>
-            <a
-              href="https://github.com/syntax019/Shortly.git"
-              className="projectTitle"
-            >
+            <a href="https://shortly-b49t.vercel.app/" className="projectTitle">
               Shortly- Link Shortener
             </a>
           </h3>

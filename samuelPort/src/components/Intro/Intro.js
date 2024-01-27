@@ -20,7 +20,7 @@ export default function Intro() {
           creating and engaging user experience and interface design with my
           expertise in React and JavaScript.
         </p>
-        <a href={resume} download="Samuel Resume">
+        <a href={resume} download="Resume">
           <button className="btn">Check Resume</button>
         </a>
       </div>
